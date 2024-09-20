@@ -19,7 +19,7 @@ try:
             print(f"Sent {A} bytes")
             
             # Increase payload size
-            A += 200
+            A += 500
             time.sleep(1)
 
         except Exception as e:
